@@ -2,6 +2,7 @@ import './App.css'
 import ActionForm from './components/ActionFrom/ActionForm'
 import ControlledField from './components/ControlledField/ControlledField'
 import LogInForm from './components/loginFrom/LogInForm'
+import ProductManagement from './components/productManagement/ProductManagement'
 import SimpleForm from './components/simpleForm/SimpleForm'
 import UncontrolledField from './components/uncobtroledField/UncontrolledField'
 
@@ -14,7 +15,8 @@ function App() {
       {/* <ActionForm /> */}
       {/* <ControlledField /> */}
       {/* <UncontrolledField /> */}
-      <LogInForm />
+      {/* <LogInForm /> */}
+      <ProductManagement />
     </>
   )
 }
