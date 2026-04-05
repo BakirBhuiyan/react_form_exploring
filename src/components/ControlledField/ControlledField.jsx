@@ -31,9 +31,9 @@ const ControlledField = () => {
             <div>
                   <h2>This Is Controlled Field</h2>
                   <form onSubmit={handleSubmit}>
-                        <input type="email" name="email" placeholder='Your_New_Email' />
+                        <input type="email" name="email" placeholder='Your_New_Email ' />
                         <br />
-                        <input type="password" onChange={handleOnChange} name="password" placeholder='Your Password' />
+                        <input type="password" defaultValue={password} onChange={handleOnChange} name="password" placeholder='Your Password' />
                         <br />
                         <input type="submit" value="submit" />
                   </form>

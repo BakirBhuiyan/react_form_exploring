@@ -1,6 +1,7 @@
 import './App.css'
 import ActionForm from './components/ActionFrom/ActionForm'
 import ControlledField from './components/ControlledField/ControlledField'
+import LogInForm from './components/loginFrom/LogInForm'
 import SimpleForm from './components/simpleForm/SimpleForm'
 import UncontrolledField from './components/uncobtroledField/UncontrolledField'
 
@@ -12,7 +13,8 @@ function App() {
       {/* <SimpleForm /> */}
       {/* <ActionForm /> */}
       {/* <ControlledField /> */}
-      <UncontrolledField />
+      {/* <UncontrolledField /> */}
+      <LogInForm />
     </>
   )
 }
